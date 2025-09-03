@@ -1,0 +1,11 @@
+@charset "UTF-8" ;
+
+:root {
+    font-size: 100%; /* 16px */
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+     font-family: "Jost", "Noto Sans KR", sans-serif;
+     font-size: 1.6rem;
+}
