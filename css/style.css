@@ -31,6 +31,7 @@
 
 .hero img {
   object-position: 50% 10%; /* obp */
+  /* transform: scale(1) translate(0%, 0%); */
 }
 
 .hero .inner {
@@ -168,11 +169,10 @@ main > section:last-child {
   overflow: hidden;
 }
 
-.works-list li:hover figure{
+.works-list li:hover figure {
   transform: scale(1.2);
   transition: 0.4s;
   filter: blur(10px);
-
 }
 
 .works-list li p {
@@ -180,7 +180,7 @@ main > section:last-child {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   font-weight: 500;
   font-size: 2rem;
   color: #fff;
@@ -199,54 +199,54 @@ main > section:last-child {
   flex-direction: row-reverse; /* fxdrr */
 }
 
-.news-con .news-text{
-  width: 48rem;  
+.news-con .news-text {
+  width: 48rem;
   display: flex;
   flex-direction: column; /* fxdc */
+
   gap: 1.8rem;
   justify-content: center;
 }
 
-.news-con .news-text h4{
-font-weight: 700;
-font-size: 2.4rem;
-color: var(--title-color);
+.news-con .news-text h4 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--title-color);
 }
 
-.news-con .news-text p{
-  
+.news-con .news-text p {
 }
 
-.news-con figure{
-width: 64rem;
+.news-con figure {
+  width: 64rem;
 }
 
 /* column */
-.column h4{
-  pw: 500px;
+.column h4 {
+font-weight: 500px;
   font-size: 1.8rem;
   color: var(--main-color);
 }
-.column h5{
+.column h5 {
   font-weight: 700;
   font-size: 3.2rem;
   color: var(--title-color);
   margin-top: 1.8rem;
 }
-.column h5 + p{
+.column h5 + p {
   margin-top: 1.8rem;
   column-gap: 4rem;
-  
+
   column-count: 2; /* colc */
   text-align: justify; /* 글자 양쪽 정렬 */
 }
 
-.column p+p{
+.column p + p {
   margin-top: 2rem;
   text-align: right;
 }
 
-.column p+p strong{
+.column p + p strong {
   display: block;
   font-weight: 700;
 }
@@ -270,7 +270,6 @@ width: 64rem;
   line-height: 1.5;
 }
 
-.foot-text p+p{
+.foot-text p + p {
   margin-top: 0.8rem;
 }
-
