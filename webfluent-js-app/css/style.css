@@ -1,0 +1,14 @@
+/* This file contains specific styles for the project. */
+
+/* Example styles for the active mobile menu */
+.m-menu {
+    display: none; /* Hide the mobile menu by default */
+    /* Additional styles for the mobile menu */
+}
+
+.m-menu.active {
+    display: block; /* Show the mobile menu when active */
+    /* Additional styles for the active state */
+}
+
+/* Add more specific styles as needed for the project */

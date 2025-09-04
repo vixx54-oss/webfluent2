@@ -14,7 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="./js/common.js"></script>
   </head>
   <body>
     <div class="skip hidden">
@@ -23,7 +22,6 @@
     </div>
     <hr />
 
-    <!-- header.header>inner>nav>h1.logo+ul.gnb -->
     <header class="header">
       <div class="inner">
         <nav>
@@ -39,7 +37,6 @@
             <li><a href="#">CONTACT US</a></li>
           </ul>
 
-          <!-- 모바일용 매뉴 -->
           <button type="button" class="btn-menu">
             <i class="hidden">메뉴</i>
           </button>
@@ -47,10 +44,10 @@
       </div>
     </header>
     <hr />
-    <!-- 모바일용 메뉴 -->
+    
     <div class="m-menu">
       <h2 class="m-logo">
-        <a href="#"><img src="./img/m-logo.svg" alt="logo" /></a>
+        <a href="#"><img src="./img/m-logo.svg" alt="logo"></a>
       </h2>
       <ul class="m-menu-list">
         <li><a href="#">ABOUT</a></li>
@@ -64,18 +61,13 @@
         <i class="hidden">닫기</i>
       </button>
     </div>
+    
     <main id="main">
       <section class="hero">
         <figure>
           <picture>
-            <source
-              media="(max-width: 500px)"
-              srcset="./img/blackpink-one.jpg"
-            />
-            <source
-              media="(max-width: 1000px)"
-              srcset="./img/blackpink-two.jpg"
-            />
+            <source media="(max-width: 500px)" srcset="./img/blackpink-one.jpg" />
+            <source media="(max-width: 1000px)" srcset="./img/blackpink-two.jpg" />
             <img src="./img/blackpink.jpg" alt="블랙핑크" />
           </picture>
         </figure>
@@ -93,7 +85,6 @@
           </div>
         </div>
       </section>
-      <!-- // e: hero -->
 
       <section class="business">
         <div class="inner">
@@ -104,7 +95,6 @@
               <a href="#">
                 <dl>
                   <dt>WEB APPLICATION INTEGRATION</dt>
-
                   <dd>시스템 구축 컨설팅</dd>
                   <dd>업무지원시스템 구축</dd>
                   <dd>홈페이지 구축</dd>
@@ -117,7 +107,6 @@
               <a href="#">
                 <dl>
                   <dt>WEB APPLICATION MAINTENANCE</dt>
-
                   <dd>웹기반 시스템 운영유지관리 및 지원</dd>
                   <dd>웹기반 시스템 유지보수</dd>
                   <dd>웹기반 시스템 기능 및 디자인 개선</dd>
@@ -128,7 +117,6 @@
               <a href="#">
                 <dl>
                   <dt>UX/UI DESIGN</dt>
-
                   <dd>리서치</dd>
                   <dd>사용자 연구</dd>
                   <dd>사용성 검증</dd>
@@ -152,7 +140,6 @@
           </ul>
         </div>
       </section>
-      <!-- // e: business -->
 
       <section class="works" id="portfolio">
         <div class="inner">
@@ -200,7 +187,6 @@
           </ul>
         </div>
       </section>
-      <!-- // e: works -->
 
       <section class="news">
         <div class="inner">
@@ -222,7 +208,6 @@
           </div>
         </div>
       </section>
-      <!-- // e: news -->
 
       <section class="column">
         <div class="inner">
@@ -253,7 +238,6 @@
           </p>
         </div>
       </section>
-      <!-- // e: column -->
     </main>
     <hr />
 
@@ -270,5 +254,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/common.js"></script>
   </body>
 </html>
